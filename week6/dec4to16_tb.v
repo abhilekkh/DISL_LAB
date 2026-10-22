@@ -1,0 +1,30 @@
+`timescale 1ns/1ns
+`include "dec4to16.v"
+module dec4to16_tb();
+	reg En;
+	reg [3:0]w;
+	wire [15:0]S;
+	dec4to16 o(.En(En),.w(w),.S(S));
+		initial begin
+			$dumpfile("dec4to16.vcd");
+			$dumpvars(0,dec4to16_tb);
+				 	En = 1;
+					w = 4'b0000; #20;
+					w = 4'b0001; #20;
+					w = 4'b0010; #20;
+					w = 4'b0011; #20;
+					w = 4'b0100; #20;
+					w = 4'b0101; #20;
+					w = 4'b0110; #20;
+					w = 4'b0111; #20;
+					w = 4'b1000; #20;
+					w = 4'b1001; #20;
+					w = 4'b1010; #20;
+					w = 4'b1011; #20;
+					w = 4'b1100; #20;
+					w = 4'b1101; #20;
+					w = 4'b1110; #20;
+					w = 4'b1111; #20;
+			$display("Test Complete");
+		end
+	endmodule	

@@ -1,0 +1,208 @@
+$date
+	Thu Aug 20 15:19:21 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module adderSubtractor_tb $end
+$var wire 4 ! s [3:0] $end
+$var wire 1 " carryout $end
+$var reg 1 # carryin $end
+$var reg 4 $ x [3:0] $end
+$var reg 4 % y [3:0] $end
+$scope module uut $end
+$var wire 1 # carryin $end
+$var wire 4 & x [3:0] $end
+$var wire 4 ' y [3:0] $end
+$var wire 4 ( y1 [3:0] $end
+$var wire 4 ) s [3:0] $end
+$var wire 1 " carryout $end
+$var wire 3 * c [3:1] $end
+$scope module stage0 $end
+$var wire 1 # Cin $end
+$var wire 1 + Cout $end
+$var wire 1 , s $end
+$var wire 1 - x $end
+$var wire 1 . y $end
+$upscope $end
+$scope module stage1 $end
+$var wire 1 / Cin $end
+$var wire 1 0 Cout $end
+$var wire 1 1 s $end
+$var wire 1 2 x $end
+$var wire 1 3 y $end
+$upscope $end
+$scope module stage2 $end
+$var wire 1 4 Cin $end
+$var wire 1 5 Cout $end
+$var wire 1 6 s $end
+$var wire 1 7 x $end
+$var wire 1 8 y $end
+$upscope $end
+$scope module stage3 $end
+$var wire 1 9 Cin $end
+$var wire 1 " Cout $end
+$var wire 1 : s $end
+$var wire 1 ; x $end
+$var wire 1 < y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0<
+0;
+1:
+19
+08
+17
+06
+15
+14
+13
+02
+01
+10
+1/
+1.
+1-
+0,
+1+
+b111 *
+b1000 )
+b11 (
+b11 '
+b101 &
+b11 %
+b101 $
+0#
+0"
+b1000 !
+$end
+#20
+04
+00
+0/
+09
+0+
+b0 *
+05
+0"
+03
+18
+1,
+11
+16
+b1111 !
+b1111 )
+1:
+b101 (
+0-
+12
+07
+1;
+b101 %
+b101 '
+b1010 $
+b1010 &
+#40
+14
+10
+1"
+01
+0:
+1/
+19
+1+
+b111 *
+15
+08
+0,
+b0 !
+b0 )
+06
+b1 (
+1-
+17
+b1 %
+b1 '
+b1111 $
+b1111 &
+#60
+09
+05
+16
+04
+00
+0/
+b0 *
+0+
+0:
+0.
+03
+18
+1<
+0-
+02
+07
+b1100 (
+b101 !
+b101 )
+1,
+b11 %
+b11 '
+b1000 $
+b1000 &
+1#
+#80
+14
+10
+1/
+19
+1+
+b111 *
+15
+1"
+13
+08
+0,
+06
+b0 !
+b0 )
+0:
+b1010 (
+1-
+17
+0;
+b101 %
+b101 '
+b101 $
+b101 &
+#100
+0"
+1:
+09
+05
+11
+16
+04
+00
+1/
+b1 *
+1+
+1.
+03
+b1110 !
+b1110 )
+0,
+b1001 (
+0-
+b110 %
+b110 '
+b100 $
+b100 &
+#120

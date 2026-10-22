@@ -1,0 +1,44 @@
+$date
+	Thu Aug 20 16:06:23 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module bcd_tb $end
+$var wire 5 ! corrected_sum [4:0] $end
+$var reg 4 " a [3:0] $end
+$var reg 4 # b [3:0] $end
+$scope module o $end
+$var wire 4 $ a [3:0] $end
+$var wire 4 % b [3:0] $end
+$var wire 5 & sum [4:0] $end
+$var wire 5 ' corrected_sum [4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b111 '
+b111 &
+b110 %
+b1 $
+b110 #
+b1 "
+b111 !
+$end
+#20
+b10000 !
+b10000 '
+b1010 &
+b1001 #
+b1001 %
+#40
+b11000 !
+b11000 '
+b10010 &
+b1001 "
+b1001 $
+#60

@@ -1,0 +1,13 @@
+module one_a_conti(a,b,c,d,f);
+	input a,b,c,d;
+	output f;
+	not(a1,a);
+	and(g,a1,b);
+	not(b1,b);
+	and(h,b1,c);
+	and(i,c,d);
+	not(c1,c);
+	not(d1,d);
+	and(j,b,c1,d1);
+	or(f,g,h,i,j);
+endmodule	

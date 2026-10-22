@@ -1,0 +1,70 @@
+$date
+	Thu Sep 24 14:17:10 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module n_bit_register_tb $end
+$var wire 8 ! q [7:0] $end
+$var reg 1 " clk $end
+$var reg 8 # d [7:0] $end
+$var reg 1 $ reset $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 8 % d [7:0] $end
+$var wire 1 $ reset $end
+$var reg 8 & q [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx &
+b0 %
+1$
+b0 #
+0"
+bx !
+$end
+#5
+b0 !
+b0 &
+1"
+#10
+0"
+b10101010 #
+b10101010 %
+0$
+#15
+b10101010 !
+b10101010 &
+1"
+#20
+0"
+b11001100 #
+b11001100 %
+#25
+b11001100 !
+b11001100 &
+1"
+#30
+0"
+b11110000 #
+b11110000 %
+#35
+b11110000 !
+b11110000 &
+1"
+#40
+0"
+b1111 #
+b1111 %
+#45
+b1111 !
+b1111 &
+1"
+#50
+0"
